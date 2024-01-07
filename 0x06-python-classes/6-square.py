@@ -5,7 +5,7 @@
 class Square():
     """square class with it's size and proper validation"""
 
-    def _init_(self, size=0, position=(0, 0)):
+    def __init__(self, size=0, position=(0, 0)):
         """"Initialize data"""
         self.size = size
         self.position = position
